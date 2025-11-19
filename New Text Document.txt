@@ -1,0 +1,13 @@
+|--- feature_5 <= 0.00
+|   |--- feature_6 <= 0.01
+|   |   |--- class: 0
+|   |--- feature_6 >  0.01
+|   |   |--- feature_9 <= 0.00
+|   |   |   |--- class: 1
+|   |   |--- feature_9 >  0.00
+|   |   |   |--- class: 0
+|--- feature_5 >  0.00
+|   |--- feature_17 <= 0.14
+|   |   |--- class: 0
+|   |--- feature_17 >  0.14
+|   |   |--- class: 2
