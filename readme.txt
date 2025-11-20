@@ -1,16 +1,21 @@
-cwk1.py 的 filter_data 生成random 数据  保存在 npy 当中
-cwk1.py 根据  rate 和  seeds numbner
-生成 SNO 和semi的打包数据
-且生成了 wk_1_tr 和 test的相关数据
+File: cwk1.py
 
+filter_data generates random data and saves it in .npy files
 
-CK2~CK4 生成 2到 4阶段 得T-cherry prediction 
-并保存到 xth-pred 
+Based on rate and seeds number, it creates packaged data for SNO and semi-supervised learning
 
-getres 得到数据
+Generates training data wk_1_tr and related test data
 
-cwk5 用來篩選一下 event得
+Files: CK2~CK4
 
+Generate T-cherry predictions for stages 2 to 4
 
-----------------
-debugging the unseen.py and getres2
+Save predictions to xth-pred directories
+
+File: getres
+
+Processes and retrieves the results data
+
+File: cwk5
+
+Used for event filtering/screening
